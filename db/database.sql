@@ -11,5 +11,5 @@ CREATE TABLE users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE USER IF NOT EXISTS 'lamp_user'@'%';
-SET PASSWORD FOR 'lamp_user'@'%' = 'lamp_password';
+SET PASSWORD FOR 'lamp_user'@'%' = 'lamp_password1';
 GRANT ALL PRIVILEGES ON lamp_db.* TO 'lamp_user'@'%';
