@@ -13,3 +13,4 @@ CREATE TABLE users (
 CREATE USER IF NOT EXISTS 'lamp_user'@'%';
 SET PASSWORD FOR 'lamp_user'@'%' = '2efb89fdsfbshw089hf8dg8sh89qh8r';
 GRANT ALL PRIVILEGES ON lamp_db.* TO 'lamp_user'@'%';
+/*Password123#@!*/
